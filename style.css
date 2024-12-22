@@ -39,7 +39,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
-  padding: 16px 16px 100px;
+  padding: 16px 100px 100px;
 }
 
 .hero-text > h1 {
@@ -67,7 +67,72 @@ a {
   height: auto;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.information > h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  width: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+
+.quote > p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.call-to-action-section {
+  margin: 100px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background-color: #3882f6;
+  border-radius: 16px;
+}
+
+.left {
+  color: #e5e7eb;
+}
+
+.call-to-action > button {
+  border-radius: 8px;
+  background-color: #3882f6;
+  border-color: #e5e7eb;
+  color: #e5e7eb;
+}
+
 footer {
   display: flex;
   background-color: #1f2937;
+  color: #e5e7eb;
+  justify-content: center;
+  align-items: center;
 }
