@@ -1,9 +1,6 @@
 body {
-  display: flex;
-  flex-direction: column;
   font-family: Roboto;
   margin: 0;
-  box-sizing: border-box;
 }
 
 header {
@@ -12,7 +9,7 @@ header {
   justify-content: space-around;
   align-items: center;
   gap: 24px;
-  padding: 16px;
+  padding: 1rem 10%;
 }
 
 header > h1 {
@@ -39,7 +36,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   gap: 10px;
-  padding: 16px 100px 100px;
+  padding: 4rem 10%;
 }
 
 .hero-text > h1 {
@@ -113,7 +110,7 @@ a {
 .call-to-action {
   display: flex;
   justify-content: space-between;
-  padding: 20px 60px;
+  padding: 4rem 10%;
   background-color: #3882f6;
   border-radius: 16px;
 }
@@ -127,6 +124,7 @@ a {
   background-color: #3882f6;
   border-color: #e5e7eb;
   color: #e5e7eb;
+  padding: 2rem 1%;
 }
 
 footer {
